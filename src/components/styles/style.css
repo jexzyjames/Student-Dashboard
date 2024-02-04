@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.head{
+    color: aquamarine;
+    cursor: pointer;
+
+}
+span{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    z-index: 1000;
+    border: 2px solid goldenrod;
+    width: 30px;
+    font-size: 24px;
+    right:0px;
+    top: 7px;
+}
+h2{cursor: pointer;}
+body{
+    position: relative;
+}
+.nav{
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 1000px;
+    padding: 2rem;
+    transition: 0.2s;
+    background: hotpink;
+
+}
+.nav.open{
+    left: 0;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20px;
+    height: 10px;
+}
+.h1{
+    color: brown;
+    font-size:30px ;
+}
